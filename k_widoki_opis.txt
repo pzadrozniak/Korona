@@ -1,0 +1,50 @@
+OPIS WIDOKÓW
+----------------------------------------
+"4 najwyższe szczyty"
+Dane 4 gór o największej wysokości n.p.m. z tabeli SZCZYTY.
+Podaje nazwę, wysokość i łańcuch górski.
+----------------------------------------
+"kandydaci do tytułu - zapytanie z widoku"
+Na podstawie widoku "klubowicze, turyści, szczyty" podaje listę osób, które są zarejestrowane w klubie, ale nie zdobyły jeszcze wszystkuch szczytów.
+----------------------------------------
+"klubowicze, turyści, szczyty"
+Podaje dane osobowe turystów wraz z datami zdobycia poszczególnych szczytów oraz ich status.
+Turysta jest:
+-ZDOBYWCĄ, jeśli posiada książeczkę i zdobył wszystkie 28 szczytów,
+-KLUBOWICZEM, jeśli posiada książeczkę i nie zdobył wszystkich 28 szczytów,
+-JUNIOREM, jeśli jest dzieckiem w wieku poniżej 10 lat,
+-TURYSTĄ, jeśli ma więcej niż 10 lat, ale nie należy to klubu.
+----------------------------------------
+"liczba klubowiczów"
+Wyświetla liczbę klubowiczów (osób, które posiadają książeczkę).
+----------------------------------------
+"lista zdobywców i kandydatów, podzapytanie z widoku"
+Na podstawie widoku "klubowicze, turyści, szczyty" wyświetla w 2 kolumnach:
+-imiona i nazwiska osób, które mają status zdobywcy,
+-imiona i nazwiska osób, które są klubowiczami, ale nie zdobyły jeszcze wszystkich szczytów.
+----------------------------------------
+"najwyższa i najniższa góra, podzapytanie"
+Wyświetla dane najwyższego i najniższego szczytu z tabeli SZCZYTY.
+----------------------------------------
+"poniżej 700 i powyżej 2000"
+Wyświetla dane szczytów o wysokości poniżej 700 i powyżej 2000 m n.p.m.
+----------------------------------------
+"roboczy, konkatenacja"
+Wyświetla:
+-imię i nazwisko każdego turysty,
+-numer książeczki lub 'B.D.' (brak danych) jeśli nie posiada książeczki,
+-datę zdobycia Ślęży lub '.' jeśli nie została zdobyta.
+----------------------------------------
+"widok z adresami email"
+Wyświetla podstawowe dane wszystkich turystów, '.' przy braku danych.
+----------------------------------------
+"wyciąg z książeczki"
+Wyświetla dane klubowiczów o 2 początkowych numerach ID:
+-ID,
+-imię i nazwisko w jednej kolumnie,
+-daty zdobycia poszczególnych szczytów,
+-zdjęcia upamiętniające te zdobycia.
+Widok łączy dane z 3 tabel: WYNIKI, TURYŚCI, ZDJĘCIA.
+----------------------------------------
+"zdobywcy"
+Na podstawie widoki "klubowicze, turyści, szczyty" podaje imiona i nazwiska osób, które są klubowiczami i zdobyły już wszystkie 28 szczytów.

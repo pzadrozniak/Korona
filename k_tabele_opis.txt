@@ -1,0 +1,18 @@
+OPIS TABEL
+----------------------------------------
+SZCZYTY
+Dane dotyczące 28 szczytów górskich, tworzących Koronę Gór Polski
+TURYŚCI
+Dane osobowe turystów zrzeszonych w Klubie Zdobywcow oraz niezrzeszonych.
+Dane niektórych osób są prawdziwe.
+Dane niektórych osób są fikcyjne.
+Zawiera 1 wyzwalacz, sprawdzający poprwaność formatu adresu email przy jego wprowadzaniu do bazy.
+WYNIKI
+Tabela podaje daty zdobycia szczytów przez poszczególnych turystów.
+Turyści są identyfikowani na podstawie ID turysty oraz, w przypadku klubowiczów, na podstawie numeru książeczki wydawanej przez klub.
+WYPRAWA
+Dane na temat zarejestrowanych wypraw górskich, zakończonych zdobyciem co najmniej 1 szczytu. Tabela pusta, do opracowania.
+W wyprawie mogą uczestniczyć osoby zarejestrowane w tabeli TURYŚCI.
+ZDJĘCIA
+Zbiór fotografii poświadczających zdobycie szczytu.
+W celu ograniczenia rozmiaru pliku, wprowadzono tylko 2 przykładowe zdjęcia.
